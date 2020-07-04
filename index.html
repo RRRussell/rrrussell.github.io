@@ -11,7 +11,7 @@
     function hideURLbar() { window.scrollTo(0, 1); }
     </script>
     <link href="https://cdn.bootcss.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="./css/style.css" rel='stylesheet' type='text/css' />
     <link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <style>            
@@ -31,7 +31,7 @@
         }                  
         #right{
             width:80%;
-            height:100%;
+            height:80%;
             /*background: #ffcccc;*/
             position: absolute;
             top:0;
@@ -45,122 +45,49 @@
     <div id="mainContainer">
         <div id="left" class="sidebar">
             <div class="sidebar_top">
-                <h1>Ziheng Duan</h1>
-                <img src="./dzh.JPG">
-            </div>
-            <div class="details">
-                <h4><strong>Phone</strong></h4>
-                <p>(+86)13393470805</p>
-                <h4><strong>Email</strong></h4>
-                <p><a>duanziheng1206@gmail.com</a></p>
+                <div align="center"><dzhh1>Ziheng Duan</dzhh1></div>
+                <br>
+                <br>
+                <br>
+                <div align="center"><img src="./Documents/dzh.JPG"></div>
             </div>
         </div>
         <div id="right" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <div class="content">
-                <div class="details_header">
-                    <ul>
-                        <li><a href="https://rrrussell.github.io"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-                        <li><a href="./documents/DZH_CV_English.pdf"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>CV</a></li>
-                        <li><a href="mailto:duanziheng1206@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Email me</a></li>
-                    </ul>
-                </div>
-                <div class="item">
-                    <h3 class="clr clr1">Biography</h3>
-                    <div class="item_detail">
-                            <br>I am a senior undergraduate student in Department of Control Science and Technology, Zhejiang University. I am fortunate to work as an undergraduate researcher in ZJU <a href="http://www.cs.zju.edu.cn/english/">Institute of Artificial Intelligence</a>, advised by Prof. <a href="https://person.zju.edu.cn/en/wufei">Fei Wu</a>. Recently, I am working as an intern researcher at Harvard Medical School, working with Prof. <a href="http://gordon.mgh.harvard.edu/gc/people/faculty/quanzheng-li/">Quanzheng Li</a> and Dr. <a href="http://gordon.mgh.harvard.edu/gc/people/fellows/dufan-wu/">Dufan Wu</a>.</br>
-                            <br>I am applying for Fall 2021 Ph.D. programs. My research interests lie in the area of Machine Learning, Graph Convolutional Network, Medical Image Analysis, especially the intersections of them.</br>
-                    </div>
-                </div>
-                <div class="item">
-                    <h3 class="clr clr2">Publications</h3>
-                    <div class="item_detail">
-                            <br>1. Boxing Wang, Chunlin Zhou, <b>Ziheng Duan</b>, Qichao Zhu, Jun Wu, Rong Xiong, “<a href="https://link.springer.com/article/10.1007/s11465-019-0559-5">Untethered Quadrupedal Hopping and Bounding on a Trampoline</a>,” Published 2019-10-24, Frontiers of Mechanical Engineering.</br>
-                            <br>2. Yueyang Wang, <b>Ziheng Duan</b>, Binbing Liao, Fei Wu, Yueting Zhuang, <a href="https://www.aaai.org/ojs/index.php/AAAI/article/view/5167">“Heterogeneous Attributed Network Embedding with Graph Convolutional Networks</a>,” Published 2019-07-17, AAAI-2019.</br>
-                    </div>
-                </div>
-                <div class="item">
-                    <h3 class="clr clr3">Paper in progress</h3>
-                    <div class="item_detail">
-                            <br>1. <b>Ziheng Duan*</b>, Haoyan Xu*, Yida Huang*, Xiaoqian Wang, Jie Feng, Pengyu Song, “<a href="https://arxiv.org/abs/2005.01185">Multivariate Time Series Forecasting Based on Causal Inference with Transfer Entropy and Graph Neural Network</a>,” In submission, NIPS-2020.</br>
-                            <br>2. Haoyan Xu, Runjian Chen, Yunsheng Bai, Jie Feng, <b>Ziheng Duan</b>, Ke Luo, Yizhou Sun, Wei Wang, “<a href="https://arxiv.org/abs/2005.07115">Hierarchical and Fast Graph Similarity Computation via Graph Coarsening and Deep Graph Learning</a>,” In submission, NIPS-2020.</br>
-                            <br>3. <b>Ziheng Duan*</b>, Haoyan Xu*, Jie Feng*, Runjian Chen, Yida Huang, Yueyang Wang, “<a href="https://arxiv.org/abs/2005.08008">Graph Partitioning and Graph Neural Network based Hierarchical Graph Matching for Graph Similarity Computation</a>,” In submission, CIKM-2020.</br>
-                            <br>4. <b>Ziheng Duan</b>, Daniel Montes, Yangsibo Huang, Dufan Wu, Javier M. Romero, Ramon Gilberto Gonzalez, Quanzheng Li, “<a href="https://arxiv.org/abs/2005.11098">Deep Learning-Based Detection and Localization of Cerebral Aneurysms in Computed Tomography Angiography</a>,” In progress.</br>
-                    </div>
-                </div>
-                <div class="item">
-                    <h3 class="clr clr4">Research Experience</h3>
-                    <div class="item_detail">
-                        <h4>School of Electrical and Computer Engineering, Purdue University<span>May 2020 – Present</span></h4>
-                        <h6>Research Assistant to Prof. Xiaoqian Wang</h6>
-                        <p>Multivariate Time Series Forecasting with Transfer Entropy Graph</p>
-                        <p>Proposed the end-to-end deep learning framework that considers multivariate time series as a graph structure with causality. The causality among time series is used as priori information to guide the forecasting task, and graph neural network is utilized to process this graph structure.</p>
-                        <p>Used transfer entropy to extract the causality among time series and construct the TE graph. A CNN structure is used to comprehensively extract the features of time series, which are used as node features in the TE graph.</p>
-                        <p>Conducted extensive experiments on MTS benchmark datasets and the results from the experiment have proved that TEGNN out-performs the state-of-the-art models.</p>
-                        <br>
-                        <h4>Harvard Medical School<span>Aug 2019 – Mar 2020</span></h4>
-                        <h6>Research Assistant to Prof. Quanzheng Li</h6>
-                        <p>Deep Learning for Medical Image Analysis</p>
-                        <p>Proposed an automatic cerebral aneurysm diagnosis system, DeepBrain, based on deep learning.</p>
-                        <p>Used a 3D Faster R-CNN and a U-netlike encoder-decoder structure to detect a candidate’s aneurysm.</p>
-                        <p>Designed a multi-scale 3D CNN to reduce false positives from 2 scan to 0.3.</p>
-                        <br>
-                        <h4>Robotics Laboratory, ZJU<span>Oct 2018 – July 2019</span></h4>
-                        <h6>Research Assistant to Prof. Rong Xiong</h6>
-                        <p>Trampoline Jumping of Quadruped Robot</p>
-                        <p>Used a robot without elastic components jumping on a trampoline to solve the control problem. This required appropriate elastic components and elaborate control algorithms.</p>
-                        <p>Designed a control algorithm to balance the contact force of feet and avoid oscillation during jumping.</p>
-                        <p>Adjusted the time delay and models of leg stretching to control the jump height effectively.</p>
-                        <p>Designed different motion control algorithms to make the robot perform translational and rotational movement while hopping or bounding on the trampoline.</p>
-                        <br>
-                        <h4>Artificial Intelligence Lab, ZJU<span>June 2018 – Sept 2018</span></h4>
-                        <h6>Research Assistant to Prof. Fei Wu</h6>
-                        <p>Deep Learning for Graph Convolutional Network</p>
-                        <p>Designed a new network embedding method based on the graph convolution network, HANE, which uses network heterogeneity and node attributes to generate high quality embedding.</p>
-                        <p>Used a node aggregation method for heterogeneous networks, which enables nodes to keep their own characteristics while collecting information of neighboring nodes. Compared with GraphSAGE, this method achieves 1 ∼ 4 percent point gain in terms of Macro-F1 and 1 ∼ 2 percent point gain in terms of Micro-F1.</p>
-                        <p>Designed an attention mechanism on graph convolutional networks to leverage not only heterogeneity, but also the node attributes. Compared with GraphSAGE, this mechanism achieves 4 ∼ 6 percent point gain in terms of Macro-F1 and 3 ∼ 5 percent point gain in terms of Micro-F1.</p>
-                        <br>
-                        <h4>Institute of Intelligent Control, ZJU<span>Mar 2018 – May 2019</span></h4>
-                        <h6>Research Assistant to Prof. Dongqin Feng</h6>
-                        <p>Power Measurement and Automatic Return of Unmanned Aerial Vehicle (UAV)</p>
-                        <p>Proposed a general high precision electric quantity detection system based on the Kalman Filter method.</p>
-                        <p>Designed an innovative way to combine the extended Kalman Filter method and the Particle Filter method to fit the soc-ocv curve.</p>
-                        <p>Designed the dynamic gain in the EKF algorithm and it can now raise measurement accuracy.</p>
-                        <p>The algorithm compiled in this project has strong portability. By only adding current and voltage measurement modules we can improve the battery power measurement accuracy and anti-noise interference ability.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <h3 class="clr clr5">Course Projects</h3>
-                    <div class="item_detail">
-                        <h5>Course Project of Natural Language Processing:</h5>
-                        <h6>Pointer-Generator Network for Text Summarization [<a href="https://github.com/RRRussell/ZJU/tree/master/Natural_Language_Process/code/app">code</a>] [<a href="https://github.com/RRRussell/ZJU/blob/master/Natural_Language_Process/report/%E6%96%87%E6%9C%AC%E6%91%98%E8%A6%81.pdf">report</a>]</h6>
-                        <p>Applied pointer-generator network, which facilitates copying words from original texts by pointing to it, thereby improving the accuracy and handles out of vocabulary (OOV) while retaining the ability to generate new words. This network can be thought of as a balance between the extractive method and the abstractive method.</p>
-                        <p>Applied the coverage model to solve the repetition problem for sequence-to-sequence models (words are often repeated, especially when generating multiple sentences).</p>
-                        <p>Used Sohu News as a training dataset and tested the model with different news. This demonstrated a good performance in rouge-n evaluation metric.</p>
-                        <br>
-                        <h5>Course Project of Computer Vision:</h5>
-                        <h6>CNN for The Recognition of Handwritten Numbers [<a href="https://github.com/RRRussell/ZJU/tree/master/Computer_Vision/CNN/code">code]</a> [<a href="https://github.com/RRRussell/ZJU/blob/master/Computer_Vision/CNN/report/report.pdf">report</a>]</h6> 
-                        <p>Used MNIST dataset, CNN network, and TensorFlow framework to achieve handwritten digit recognition.</p>
-                        <p>Used dropout at the fully connected layer to prevent the network over-fitting.</p>
-                        <p>Adopted the batch gradient descent method to improve the memory utilization and parallelization efficiency of the large matrix multiplication.</p>
-                        <br>
-                        <h5>Course Project of Math Modeling:</h5>
-                        <h6>Optimization Model for Riding and Relocating Rules [<a href="https://github.com/RRRussell/ZJU/tree/master/Mathematical_Modeling/code">code</a>] [<a href="https://github.com/RRRussell/ZJU/blob/master/Mathematical_Modeling/report/%E9%AA%91%E7%94%B5%E5%8D%95%E8%BD%A6%E8%BF%98%E8%BD%A6%E7%82%B9%E4%B8%8E%E8%B0%83%E9%85%8D%E8%A7%84%E5%88%99%E7%9A%84%E4%BC%98%E5%8C%96%E6%A8%A1%E5%9E%8B.pdf">report</a>]</h6>
-                        <p>Used a neural network regression method to analyze and predict the starting capacity of each return point.</p>
-                        <p>Used the classification method of clustering to divide the return points into different categories.</p>
-                        <p>Visualized our model with real data from Hangzhou bicycles to verify its effectiveness.</p>
-                    </div>
-                </div>
-                <!-- <div class="item">
-                    <h3 class="clr clr6">Others</h3>
-                </div> -->
+	        <div class="content">
+	            <div class="details_header">
+	                <ul>
+	                    <li><a href="./index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+	                    <li><a href="./Publications/Publications.html"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>Publications</a></li>
+	                    <li><a href="./Experience/Experience.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Experience</a></li>
+	                    <!-- <li><a href="./Contact/Contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contact</a></li> -->
+	                </ul>
+	            </div>
+	            <div class="item">
+	                <h3 class="clr clr1">Biography</h3>
+	                <div class="item_detail">
+	                        I am a senior undergraduate student in Department of Control Science and Technology, Zhejiang University. I am fortunate to work as an undergraduate researcher in ZJU <a href="http://www.cs.zju.edu.cn/english/">Institute of Artificial Intelligence</a>, advised by Prof. <a href="https://person.zju.edu.cn/en/wufei">Fei Wu</a>. Recently, I am working as an intern researcher at School of Electrical and Computer Engineering, Purdue University, working with Prof. <a href="https://sites.google.com/site/joyxqwang/">Xiaoqian Wang</a>.</br>
+	                        <br>I am applying for Fall 2021 Ph.D. programs. My research interests lie in the area of Machine Learning, Graph Representation Learning, Time Series Analysis, Medical Image Analysis, especially the intersections of them.</br>
+	                </div>
 
-                <div class="copywrite">
-                    <p>© 2020 Mr.Duan</p>
-                    <p>Last update: June. 20, 2020</p>
-                    <br>
-                </div>
+	                <h3 class="clr clr8">CV</h3>
+	                <div class="item_detail">
+	                        <a href="./Documents/DZH_CV_English.pdf">English CV</a></br>
+	                        <br><a href="./Documents/DZH_CV_Chinese.pdf">Chinese CV</a></br>
+	                </div>
+
+	                <h3 class="clr clr7">Contact</h3>
+                    <div class="item_detail">
+                            Phone: (+86)13393470805</br>
+                            <br>Email: duanziheng1206@gmail.com</br>
+                    </div>
+            </div>
+            <div class="copywrite">
+                <p>© 2020 Mr.Duan</p>
+                <p>Last update: July. 4, 2020</p>
+                <br>
             </div>
         </div>
+        <!-- </div> -->
     </div>
 </body>
 
